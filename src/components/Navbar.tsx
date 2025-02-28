@@ -70,7 +70,7 @@ const Navbar = () => {
           ref={navRef}
           className={`${
             navOpen ? "left-0" : "-left-[100%]"
-          } absolute lg:relative gap-16 flex pt-[35%] top-0 bg-[#E19517] h-screen w-1/2 lg:bg-transparent flex-col lg:flex-row lg:gap-3 transition-all duration-300 z-50`}
+          } absolute lg:relative gap-16 flex pt-[35%] lg:pt-0 top-0 bg-[#E19517] h-screen lg:h-fit w-2/3 lg:bg-transparent flex-col lg:flex-row lg:gap-3 transition-all duration-300 z-50`}
         >
           {links.map((lnk, index) => (
             <Link
