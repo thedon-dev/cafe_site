@@ -3,7 +3,7 @@ import { TiMediaFastForward } from "react-icons/ti";
 import bg_image from "../assets/FooterImage.png";
 import { PiClockAfternoonBold } from "react-icons/pi";
 import { BsCompass, BsTwitterX } from "react-icons/bs";
-import { FaFacebookF, FaInstagram } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
 
 const Footer: React.FC = () => {
@@ -52,8 +52,17 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <p className="text-sm text-center text-white mt-10">
-          © Copyright 2021, All Rights Reserved by Coffee Time
+          © Copyright 2025, All Rights Reserved by Coffee Time
         </p>
+        <div className="smallFont text-white text-sm py-5 text-center mt-10 lg:mt-0">
+          <p className="">Built by Victor Jack</p>
+          <p className="flex gap-2 justify-center">
+            <a href="https://x.com/iamvictorjack" className="mt-2 p-4">
+              {" "}
+              <FaXTwitter />{" "}
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
