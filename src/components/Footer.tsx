@@ -1,5 +1,4 @@
 import React from "react";
-import { TiMediaFastForward } from "react-icons/ti";
 import bg_image from "../assets/FooterImage.png";
 import { PiClockAfternoonBold } from "react-icons/pi";
 import { BsCompass, BsTwitterX } from "react-icons/bs";
