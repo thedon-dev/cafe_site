@@ -11,7 +11,7 @@ import discount from "../assets/Discount.png";
 import cocoaHeart from "../assets/cocoaHeart.png";
 import Gallery from "../components/Gallery";
 
-const HomePage = () => {
+const HomePage: React.FC = () => {
   return (
     <>
       <section
