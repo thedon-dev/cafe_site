@@ -21,9 +21,9 @@ const HomePage = () => {
             Enjoy Your Life With Coffee
           </h1>
           <p className="lg:text-lg mt-5 lg:w-1/2">
-            Boost your productivity and build your mood with a short break in
-            the most comfortable place. Boost your productivity and build your
-            mood with a short.
+            Boost your productivity and uplift your mood with a refreshing
+            coffee break in the most comfortable and inviting space. Savor every
+            sip, recharge, and let inspiration flow.
           </p>
           <div className="mt-14">
             <Link to="/" className="bg-[#E19517] rounded px-7 py-3 text-lg">
@@ -46,9 +46,9 @@ const HomePage = () => {
             Quality Coffee To Deliver
           </h3>
           <p className="text-sm lg:text-base lg:w-1/2 mx-auto mt-3">
-            Boost your productivity and build your mood with a short break in
-            the most comfortable place. Boost your productivity and build your
-            mood with a short.
+            Experience the perfect blend of rich flavors and cozy ambiance.
+            Whether you're starting your day or taking a well-deserved break,
+            our expertly crafted coffee is here to energize and inspire you.
           </p>
         </div>
         <SwiperComp />
