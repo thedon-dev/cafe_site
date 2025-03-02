@@ -12,9 +12,9 @@ const Footer: React.FC = () => {
     <>
       <Slider />
       <div className="flex justify-center relative">
-        <div className="bg-[#E19517] absolute -top-[120px] px-2 py-5 rounded-[5rem] border-dashed border-black border-4 text-center text-white">
-          <h3 className="text-2xl">Since</h3>
-          <p className="text-5xl">2022</p>
+        <div className="bg-[#E19517] absolute -top-[100px] lg:-top-[120px] px-2 py-3 lg:py-5 rounded-[5rem] border-dashed border-black border-4 text-center text-white">
+          <h3 className="text-lg lg:text-2xl">Since</h3>
+          <p className="text-3xl lg:text-5xl">2022</p>
           <img src={bean} alt="" className="w-[60px] mt-1 mx-auto" />
         </div>
       </div>
